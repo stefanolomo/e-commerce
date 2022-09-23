@@ -30,6 +30,7 @@ header .menu-container .item a{
 }
 header .menu-container .item, .cart span{
 	color: white;
+	font-weight: bold;
 }
 header .menu-container .cart{
 	margin: 0 0.5rem 0 1rem;
