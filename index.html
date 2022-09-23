@@ -7,7 +7,8 @@
 	<title>E-Commerce</title>
 	<link rel="shortcut icon" href="./assets/icons/logo-big.png" type="image/x-icon">
 	<link rel="stylesheet" href="./css/index.css">
-	<link rel="stylesheet" href="./css/header.css">
+	<link rel="stylesheet" media="(max-width: 800px)" href="./css/header.css"/>
+	<link rel="stylesheet" media="(min-width: 800px)" href="./css/header.desktop.css"/>
 	<link rel="stylesheet" href="./css/normalize.min.css">
 </head>
 <body>
@@ -18,11 +19,13 @@
 		<input type="text" class="search-bar">
 		<section class="menu-container">
 			<div class="item">
-				<a href="./sign-in"><h4>Sign in</h4></a>
+				<a href="./sign-in" id="signin"><h4>Sign in</h4></a>
 			</div>
 			<div class="item">
-				<a href="./sign-in"><h4>Sign in</h4></a>
+				<a href="./log-in" id="login"><h4>Log in</h4></a>
 			</div>
+		</section>
+		<section class="menu-container">
 			<div class="cart">
 				<span id="cart-products">0</span> <span>Items in cart</span>
 			</div>
